@@ -6,7 +6,7 @@ import { CardData } from "@/data";
 export default function HeroSection() {
   return (
     <div className="bg-background text-primary_text h-[1024px]">
-      <div className="max-w-[95%] mx-auto py-10 relative">
+      <div className="max-w-[92%] mx-auto py-10 relative">
 
         <div className="absolute top-0 right-0">
           <div className="relative w-[700px] h-[700px]">

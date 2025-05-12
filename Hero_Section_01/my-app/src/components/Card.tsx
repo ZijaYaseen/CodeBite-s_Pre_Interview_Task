@@ -9,7 +9,7 @@ export default function Card({ title, description }: CardProps) {
   return (
     <div
       className="
-        relative w-[310px] px-4 py-6 border rounded-2xl font-space-mono overflow-hidden 
+        relative w-[300px] px-4 py-6 border rounded-2xl font-space-mono overflow-hidden 
         transition duration-300 ease-out hover:shadow-lg hover:bg-primary_text hover:text-background
       "
     >
