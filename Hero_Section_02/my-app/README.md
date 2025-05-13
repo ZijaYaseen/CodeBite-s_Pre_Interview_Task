@@ -55,4 +55,4 @@ This repository contains the **Hero Section** component for the CodeBite pre-int
 * **next/image**: Image optimization and responsive loading.
 * **TypeScript**: Type safety and modern JavaScript features.
 
-Live Site : ()[] 
+**Live Site** : (https://code-bites-pre-interview-task-hero-section-02.vercel.app/)[https://code-bites-pre-interview-task-hero-section-02.vercel.app/] 
