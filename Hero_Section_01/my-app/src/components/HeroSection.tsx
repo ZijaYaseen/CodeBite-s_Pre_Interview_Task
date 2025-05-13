@@ -26,7 +26,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="w-full flex justify-end absolute md:top-[470px] top-[540px] md:right-96 right-6">
+        <div className="w-full flex justify-end absolute md:top-[470px] top-[580px] md:right-96 right-4">
           <div className="text-center">
             <h2 className="text-5xl font-bold font-bitter">986K+</h2>
             <p className="mt-1 font-normal text-base font-space-mono">Lorem ipsum dolor sit</p>
@@ -59,7 +59,7 @@ export default function HeroSection() {
             </p>
             <div className="flex justify-between max-w-4xl w-full">
               <button
-                className="font-space-mono text-xl py-6 px-10 bg-primary_text text-background rounded-[40px] transition duration-300 ease-in-out
+                className="font-space-mono text-xl md:py-6 py-4 px-10 bg-primary_text text-background rounded-[40px] transition duration-300 ease-in-out
                hover:bg-primary_text/80 hover:scale-105 hover:shadow-lg">
                 Get Started
               </button>

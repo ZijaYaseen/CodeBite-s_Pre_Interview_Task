@@ -15,8 +15,8 @@ export default function HeroSection() {
               className="w-full h-auto"
             ></Image>
 
-            <div className="absolute md:top-44 top-20 text-white md:left-10 left-5 flex flex-col gap-6 max-w-xl px-6 mx-auto">
-              <h1 className="font-bitter font-extrabold md:text-6xl text-4xl">
+            <div className="absolute md:top-44 top-10 text-white md:left-10 left-5 flex flex-col gap-6 max-w-xl px-6 mx-auto">
+              <h1 className="font-bitter font-extrabold md:text-6xl text-3xl">
                 Design, create, and be passionate
               </h1>
               <p className="font-space-mono font-normal md:text-xl text-base">
@@ -24,21 +24,12 @@ export default function HeroSection() {
               </p>
               <div className="text-base font-space-mono">
                 <button
-                  className="md:py-5 py-3 md:px-10 px-8
-         bg-white text-black
-         rounded-[40px]
-
-         ring-0                  
-         hover:ring-2             
+                  className="md:py-5 py-3 md:px-10 px-8 bg-white text-black rounded-[40px] ring-0 hover:ring-2             
          hover:ring-white hover:bg-black hover:bg-opacity-85 hover:text-white border-2 border-transparent       
-         hover:ring-offset-2      
+         hover:ring-offset-2 transition-all duration-300 ease-in-out">
 
-         transition-all duration-300 ease-in-out
-"
-                >
                   Get started
                 </button>
-
 
               </div>
             </div>
@@ -59,10 +50,10 @@ export default function HeroSection() {
               ></Image>
 
               <div className="absolute top-6 left-6 font-bitter text-[#333333] opacity-60">
-                <h3 className="text-[56px] font-extrabold leading-none">
+                <h3 className="md:text-[56px] text-3xl font-extrabold leading-none">
                   02
                 </h3>
-                <p className="font-medium text-lg">
+                <p className="font-medium md:text-lg text-base">
                   Go with your heart
                 </p>
               </div>
@@ -80,10 +71,10 @@ export default function HeroSection() {
               ></Image>
 
               <div className="absolute top-6 left-6 font-bitter text-[#333333] opacity-60">
-                <h3 className="text-[56px] font-extrabold leading-none">
+                <h3 className="md:text-[56px] text-3xl font-extrabold leading-none">
                   03
                 </h3>
-                <p className="font-medium text-lg">
+                <p className="font-medium md:text-lg text-base">
                   Live a full live
                 </p>
 
@@ -107,11 +98,11 @@ export default function HeroSection() {
             className="w-full h-auto"
           ></Image>
 
-          <div className="absolute top-12 right-6 font-bitter text-[#333333] opacity-50 text-right">
-            <h3 className="text-[56px] font-extrabold leading-none">
+          <div className="absolute md:top-12 top-4 right-6 font-bitter text-[#333333] opacity-50 text-right">
+            <h3 className="md:text-[56px] text-3xl font-extrabold leading-none">
               04
             </h3>
-            <p className="font-medium text-lg">
+            <p className="font-medium md:text-lg text-base">
               Discover the world
             </p>
 

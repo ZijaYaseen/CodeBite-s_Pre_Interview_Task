@@ -30,7 +30,7 @@ export default function Card({ title, description }: CardProps) {
       <div className="relative z-10 flex flex-col md:gap-4 gap-2">
         <IoMdStar size={26} className="transition duration-300 hover:text-yellow-500" />
         <h3 className="font-bold text-xl">{title}</h3>
-        <p className="md:text-base text-sm">{description}</p>
+        <p className="md:text-base text-xs">{description}</p>
       </div>
     </div>
   );
