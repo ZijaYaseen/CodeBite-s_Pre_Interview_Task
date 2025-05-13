@@ -35,3 +35,5 @@ The `HeroSection` component is designed as part of the CodeBites pre-interview t
 
 * Cards are rendered using a map function from the `CardData` array.
 * Grid layout is responsive, adjusting from 2 columns on smaller screens to 4 columns on medium and larger screens.
+
+Live Site : [https://code-bites-pre-interview-task-hero-section.vercel.app/](https://code-bites-pre-interview-task-hero-section.vercel.app/)
