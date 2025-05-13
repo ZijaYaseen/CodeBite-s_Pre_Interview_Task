@@ -5,7 +5,7 @@ import { CardData } from "@/data";
 
 export default function HeroSection() {
   return (
-    <div className="bg-background text-primary_text h-[1024px]">
+    <div className="bg-background text-primary_text md:h-[1024px] h-[1220px]">
       <div className="max-w-[92%] mx-auto py-10 relative">
 
         <div className="absolute top-0 right-0">
@@ -19,14 +19,14 @@ export default function HeroSection() {
           </div>
         </div>
         {/* Top right stats */}
-        <div className="w-full flex justify-end mt-10 absolute right-14">
+        <div className="w-full flex justify-end mt-10 absolute md:right-14">
           <div className="text-center">
             <h2 className="text-5xl font-bold font-bitter">256B+</h2>
             <p className="mt-1 font-normal text-base font-space-mono">Lorem ipsum dolor sit</p>
           </div>
         </div>
 
-        <div className="w-full flex justify-end absolute top-[470px] right-96">
+        <div className="w-full flex justify-end absolute md:top-[470px] top-[540px] md:right-96 right-6">
           <div className="text-center">
             <h2 className="text-5xl font-bold font-bitter">986K+</h2>
             <p className="mt-1 font-normal text-base font-space-mono">Lorem ipsum dolor sit</p>
@@ -68,7 +68,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 absolute top-[700px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 md:gap-6 gap-4 absolute top-[680px] py-5">
           {CardData.map(({ id, title, description }) => (
             <Card key={id} title={title} description={description} />
           ))}

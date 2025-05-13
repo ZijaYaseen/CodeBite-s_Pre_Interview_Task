@@ -9,7 +9,7 @@ export default function Card({ title, description }: CardProps) {
   return (
     <div
       className="
-        relative w-[300px] px-4 py-6 border rounded-2xl font-space-mono overflow-hidden 
+        relative md:px-4 px-2 py-6 border rounded-2xl font-space-mono overflow-hidden 
         transition duration-300 ease-out hover:shadow-lg hover:bg-primary_text hover:text-background
       "
     >
@@ -27,10 +27,10 @@ export default function Card({ title, description }: CardProps) {
       />
 
       {/* Card content */}
-      <div className="relative z-10 flex flex-col gap-4">
+      <div className="relative z-10 flex flex-col md:gap-4 gap-2">
         <IoMdStar size={26} className="transition duration-300 hover:text-yellow-500" />
         <h3 className="font-bold text-xl">{title}</h3>
-        <p className="text-base">{description}</p>
+        <p className="md:text-base text-sm">{description}</p>
       </div>
     </div>
   );
