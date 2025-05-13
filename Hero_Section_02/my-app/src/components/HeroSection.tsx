@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <div className="max-w-[1490px] w-full mx-auto bg-red-700">
+    <div className="max-w-[1490px] w-full mx-auto bg-gray-400">
 
       <div className="flex flex-col md:flex-row">
         <div className="grid">
