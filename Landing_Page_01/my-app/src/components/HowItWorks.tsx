@@ -9,7 +9,7 @@ const HowItWorks = () => {
             How it Works
         </h2>
 
-        <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-20 gap-5'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 md:gap-20 gap-5'>
         {works.map((item)=>(
             <div key={item.id} className='p-5 gap-5 flex flex-col border-4 shadow-lg border-blueGray-600 rounded-[10px] items-center text-center'>
 

@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section className="max-w-[1440px] relative bg-[url('/Section.svg')] bg-blueGray-600 font-roboto bg-cover bg-center text-white w-full overflow-hidden">
 
-      <div className="flex flex-col md:flex-row md:justify-between md:px-20 px-5">
+      <div className="flex flex-col lg:flex-row md:justify-between md:px-20 px-5">
        <div className="flex flex-col justify-center md:gap-6 gap-4 text-center md:text-left md:py-20">
         <h1 className="md:text-7xl text-[40px] md:font-extrabold font-bold">
           Launch Your App <br />

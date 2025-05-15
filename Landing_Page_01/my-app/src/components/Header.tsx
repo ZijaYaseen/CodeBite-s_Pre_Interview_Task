@@ -20,7 +20,7 @@ export default function Header() {
           <div className="font-extrabold text-4xl">mabi</div>
 
           {/* Nav links inline on desktop */}
-          <nav className="hidden md:flex space-x-14">
+          <nav className="hidden lg:flex space-x-14">
             {Nav.map((item, idx) => (
               <div key={idx} className="relative group">
                 <Link href={item.link} className="flex items-center space-x-1 font-medium hover:text-blue-300 cursor-pointer">
@@ -45,7 +45,7 @@ export default function Header() {
 
         {/* Actions & mobile toggle */}
         <div className="flex items-center space-x-4">
-          <div className="hidden md:block space-x-5">
+          <div className="hidden lg:block space-x-5">
             <button className="px-5 py-2 text-sm rounded-full font-semibold tracking-wide text-white border border-white hover:bg-white hover:text-blueGray-600 transition-all">
               Login
             </button>
@@ -53,7 +53,7 @@ export default function Header() {
               Free Launch
             </button>
           </div>
-          <button onClick={toggleMenu} className="md:hidden p-2">
+          <button onClick={toggleMenu} className="lg:hidden p-2">
             <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
             </svg>
@@ -63,7 +63,7 @@ export default function Header() {
 
       {/* Mobile menu*/}
       {isOpen && (
-        <nav className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden">
+        <nav className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden">
           <div className="fixed top-0 left-0 w-3/5 min-w-[250px] h-full bg-white p-6 z-50 overflow-auto">
             <div className="flex justify-between items-center mb-6">
               <div className="font-extrabold text-4xl text-blueGray-600">mabi</div>
