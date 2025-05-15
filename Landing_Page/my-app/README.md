@@ -6,7 +6,7 @@ This is a **dynamic**, **fully responsive** landing page built with **Next.js 14
 
 View the live version here:
 
-> [https://your-vercel-deployment-url.vercel.app](https://your-vercel-deployment-url.vercel.app)
+> [https://code-bite-s-pre-interview-task-landing-page.vercel.app/](https://code-bite-s-pre-interview-task-landing-page.vercel.app/)
 
 ## Features
 
