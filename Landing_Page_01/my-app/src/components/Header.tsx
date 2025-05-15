@@ -46,10 +46,10 @@ export default function Header() {
         {/* Actions & mobile toggle */}
         <div className="flex items-center space-x-4">
           <div className="hidden md:block space-x-5">
-            <button className="px-5 py-2 text-sm rounded-full font-semibold tracking-wide text-white border border-white hover:bg-white hover:text-bgBlue transition-all">
+            <button className="px-5 py-2 text-sm rounded-full font-semibold tracking-wide text-white border border-white hover:bg-white hover:text-blueGray-600 transition-all">
               Login
             </button>
-            <button className="px-5 py-2 text-sm rounded-full font-semibold tracking-wide text-blueGray-600 text-bgBlue bg-white hover:bg-gray-100 transition-all">
+            <button className="px-5 py-2 text-sm rounded-full font-semibold tracking-wide text-blueGray-600 bg-white hover:bg-gray-100 transition-all">
               Free Launch
             </button>
           </div>
@@ -66,8 +66,8 @@ export default function Header() {
         <nav className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden">
           <div className="fixed top-0 left-0 w-3/5 min-w-[250px] h-full bg-white p-6 z-50 overflow-auto">
             <div className="flex justify-between items-center mb-6">
-              <div className="font-extrabold text-4xl text-bgBlue">mabi</div>
-              <button onClick={toggleMenu} className="p-2 text-bgBlue">
+              <div className="font-extrabold text-4xl text-blueGray-600">mabi</div>
+              <button onClick={toggleMenu} className="p-2 text-blueGray-600">
                 <IoMdClose size={30} />
               </button>
             </div>
@@ -76,7 +76,7 @@ export default function Header() {
                 <li key={idx} className="border-b mt-1 pb-2">
                   <div
                     onClick={() => item.subitems && toggleSub(idx)}
-                    className="flex items-center justify-between font-medium text-[16px] text-bgBlue hover:text-blue-700 cursor-pointer"
+                    className="flex items-center justify-between font-medium text-[16px] text-blueGray-600 hover:text-blue-700 cursor-pointer"
                   >
                     <span>{item.name}</span>
                     {item.subitems && <IoIosArrowDown className={`${activeIdx === idx ? 'rotate-180' : ''} transition-transform`} />}
