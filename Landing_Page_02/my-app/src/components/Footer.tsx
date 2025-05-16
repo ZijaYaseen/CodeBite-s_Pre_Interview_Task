@@ -28,31 +28,37 @@ export default function Footer() {
           </div>
         ))}
       </div>
-      <div className="border-t mt-10 py-6 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6">
-       <div className="flex flex-col md:flex-row items-start md:items-center gap-2 w-full">
-         <h5 className="font-medium text-xl">
-            break<span className="text-fuchsia-800">io</span>
-        </h5>
-        <p className="text-sm text-gray-500"> &copy; 2025 - All rights reserved.</p>
-       </div>
-        <div className="flex space-x-4 mt-4 md:mt-0 text-gray-500 w-full">
-   <Link href="/" aria-label="YouTube" className="hover:text-red-600 transition">
-    <FaYoutube size={18} />
-  </Link>
-  <Link href="/" aria-label="Facebook" className="hover:text-blue-600 transition">
-    <FaFacebookF size={18} />
-  </Link>
-  <Link href="/" aria-label="Twitter" className="hover:text-blue-400 transition">
-    <FaTwitter size={18} />
-  </Link>
-  <Link href="/" aria-label="Instagram" className="hover:text-pink-500 transition">
-    <FaInstagram size={18} />
-  </Link>
-  <Link href="/" aria-label="LinkedIn" className="hover:text-blue-700 transition">
-    <FaLinkedinIn size={18} />
-  </Link>
+      <div className="border-t mt-10 py-6 flex flex-col md:flex-row items-start md:items-center justify-between max-w-7xl mx-auto px-6">
+  {/* Left Side */}
+  <div className="flex flex-col md:flex-row items-start md:items-center gap-2">
+    <h5 className="font-medium text-xl">
+      break<span className="text-fuchsia-800">io</span>
+    </h5>
+    <p className="text-sm text-gray-500">
+      &copy; 2025 - All rights reserved.
+    </p>
+  </div>
+
+  {/* Right Side (Social Icons) */}
+  <div className="flex space-x-4 mt-4 md:mt-0 text-gray-500 md:justify-end">
+    <Link href="/" aria-label="YouTube" className="hover:text-red-600 transition">
+      <FaYoutube size={18} />
+    </Link>
+    <Link href="/" aria-label="Facebook" className="hover:text-blue-600 transition">
+      <FaFacebookF size={18} />
+    </Link>
+    <Link href="/" aria-label="Twitter" className="hover:text-blue-400 transition">
+      <FaTwitter size={18} />
+    </Link>
+    <Link href="/" aria-label="Instagram" className="hover:text-pink-500 transition">
+      <FaInstagram size={18} />
+    </Link>
+    <Link href="/" aria-label="LinkedIn" className="hover:text-blue-700 transition">
+      <FaLinkedinIn size={18} />
+    </Link>
+  </div>
 </div>
-      </div>
+
     </footer>
   );
 }

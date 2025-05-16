@@ -21,7 +21,7 @@ const OtherUsersStories = () => {
         alt='Decorator'
         width={500}
         height={500}
-        className='w-40 h-40 absolute right-0 top-0 z-0'
+        className='w-40 h-40 absolute right-0 top-0 z-0 opacity-50 md:opacity-100'
         >
         </Image>
       </div>
