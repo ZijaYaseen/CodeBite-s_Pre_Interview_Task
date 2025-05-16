@@ -14,7 +14,7 @@ const GetBetter = () => {
                     Et pulvinar nec interdum integer id urna molestie porta nullam. A, donec ornare sed turpis pulvinar purus maecenas quam a. Erat porttitor pharetra sed in mauris elementum sollicitudin.
                 </p>
 
-                 <div>
+                 <div className='mb-5'>
              <button className="md:px-10 px-6 py-3 md:py-[17px] md:text-2xl text-base md:font-bold font-medium rounded-full bg-fuchsia-600 tracking-wider ring-2 ring-transparent hover:ring-fuchsia-600 text-white hover:bg-white hover:text-fuchsia-600 transition-all">
               Start Now
             </button>
