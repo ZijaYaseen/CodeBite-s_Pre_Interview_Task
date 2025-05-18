@@ -45,7 +45,7 @@ function AccordionItem({
     const [open, setOpen] = useState(defaultOpen);
     return (
         <div
-            className={`border-2 rounded-lg transition-all bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] ${open ? "border-fuchsia-600" : "border-transparent hover:border-fuchsia-600"
+            className={`border-2 rounded-lg transition-all bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] ${open ? "border-fuchsia-300" : "border-transparent hover:border-fuchsia-300"
                 }`}
         >
             <button

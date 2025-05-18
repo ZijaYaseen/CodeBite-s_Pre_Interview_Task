@@ -19,7 +19,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {section.links.map((link) => (
                 <li key={link}>
-                  <Link href="/" className="text-sm text-gray-600 hover:text-blue-500 transition">
+                  <Link href="/" className="text-sm text-gray-600 hover:text-fuchsia-600 transition">
                     {link}
                   </Link>
                 </li>
