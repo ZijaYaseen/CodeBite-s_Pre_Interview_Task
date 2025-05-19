@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 
 const HeroSection = () => {
   return (
@@ -37,7 +36,6 @@ const HeroSection = () => {
             alt='Breakio'
             width={300}
             height={300}
-            priority
             className='w-full h-auto mt-5 block md:hidden animate-float'
             ></Image>
           

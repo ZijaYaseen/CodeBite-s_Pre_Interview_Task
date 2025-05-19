@@ -1,5 +1,3 @@
-
-import React from 'react'
 import {StoryCarousel} from './HorizontalCrousel'
 
 const Stories = () => {
