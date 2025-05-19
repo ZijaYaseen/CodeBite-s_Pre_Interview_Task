@@ -4,7 +4,7 @@ import {StoryCarousel} from './HorizontalCrousel'
 
 const Stories = () => {
   return (
-    <div className='max-w-[1440px] w-full font-roboto md:px-20 px-5 py-10 '>
+    <div className='max-w-[1440px] w-full font-roboto md:px-20 px-5 py-10'>
             <div className='text-center flex flex-col md:gap-6 gap-4 md:w-[75%] mx-auto w-full'>
     
                

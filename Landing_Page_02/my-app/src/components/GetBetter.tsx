@@ -2,22 +2,10 @@
 "use client";
 
 import Image from 'next/image';
-import React, { useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
+import { motion} from 'framer-motion';
 import {  fadeInUp } from '@/utils/AnimationVariants';
 
 const GetBetter: React.FC = () => {
-  // Desktop refs
-  const topRef = useRef<HTMLDivElement>(null);
-  const bottomRef = useRef<HTMLDivElement>(null);
-  const topDesktopInView = useInView(topRef, { amount: 0.2, once: false });
-  const bottomDesktopInView = useInView(bottomRef, { amount: 0.2, once: false });
-
-  // Mobile refs
-  const mobileTopRef = useRef<HTMLDivElement>(null);
-  const mobileBottomRef = useRef<HTMLDivElement>(null);
-  const topMobileInView = useInView(mobileTopRef, { amount: 0.2, once: false });
-  const bottomMobileInView = useInView(mobileBottomRef, { amount: 0.2, once: false });
 
   return (
     <div className="max-w-[1440px] w-full font-roboto md:px-10 py-5 md:py-10">
@@ -39,35 +27,35 @@ const GetBetter: React.FC = () => {
         </div>
 
         {/* Desktop Illustration */}
-        <div className="relative w-full h-[500px] lg:h-[750px] md:h-[650px] sm:h-[500px] py-20 mx-auto overflow-visible hidden sm:block">
+        <div className="relative w-full h-[500px] lg:h-[850px] md:h-[650px] sm:h-[500px] py-20 mx-auto overflow-visible hidden sm:block">
 
           <motion.div
-          ref={topRef}
             initial="hidden"
-            animate={topDesktopInView ? 'visible' : 'hidden'}
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
             transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.2 }}
             whileHover={{ scale: 1.05, y: -5 }}
-            className=" absolute left-1/2 top-1/2 w-[75%] h-auto drop-shadow-lg"
-          >
+            className="absolute md:inset-x-40 sm:inset-x-28 w-[75%] h-auto drop-shadow-lg"
+>
             <Image
             src="/Desktop.svg"
             alt="Desktop Illustration"
             width={600}
             height={400}
-            className="absolute top-1/2 w-full h-auto -translate-x-1/2 -translate-y-1/2 drop-shadow-lg"
+            className="w-full h-auto drop-shadow-lg"
           />
           </motion.div>
 
           {/* Top Desktop Card */}
           <motion.div
-            ref={topRef}
             initial="hidden"
-            animate={topDesktopInView ? 'visible' : 'hidden'}
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.8 }}
             whileHover={{ scale: 1.05, y: -5 }}
-            className="absolute bottom-[43%] left-[3%] w-[20%] shadow-md"
+            className="absolute bottom-[43%] md:bottom-[40%] left-[3%] w-[20%] shadow-md"
           >
             <Image
               src="/Content-Box-01.svg"
@@ -80,9 +68,9 @@ const GetBetter: React.FC = () => {
 
           {/* Bottom Desktop Card */}
           <motion.div
-            ref={bottomRef}
-            initial="hidden"
-            animate={bottomDesktopInView ? 'visible' : 'hidden'}
+            initial= "hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.7 }}
             whileHover={{ scale: 1.05, y: -5 }}
@@ -98,9 +86,9 @@ const GetBetter: React.FC = () => {
           </motion.div>
 
            <motion.div
-            ref={bottomRef}
-            initial="hidden"
-            animate={bottomDesktopInView ? 'visible' : 'hidden'}
+            initial= "hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
             transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.9 }}
             whileHover={{ scale: 1.05, y: -5 }}
@@ -119,9 +107,9 @@ const GetBetter: React.FC = () => {
         {/* Mobile Design */}
         <div className="relative w-full flex flex-col items-center sm:hidden h-[550px] pl-2">
           <motion.div
-            ref={mobileTopRef}
-            initial="hidden"
-            animate={topMobileInView ? 'visible' : 'hidden'}
+            initial= "hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
             transition={{ duration: 0.4, ease: 'easeInOut' }}
             whileHover={{ scale: 1.05, y: -5 }}
@@ -138,9 +126,9 @@ const GetBetter: React.FC = () => {
 
           {/* Top Mobile Card */}
           <motion.div
-            ref={mobileTopRef}
-            initial="hidden"
-            animate={topMobileInView ? 'visible' : 'hidden'}
+            initial= "hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
             whileHover={{ scale: 1.05, y: -5 }}
@@ -157,9 +145,9 @@ const GetBetter: React.FC = () => {
 
           {/* Bottom Mobile Card */}
           <motion.div
-            ref={mobileBottomRef}
-            initial="hidden"
-            animate={bottomMobileInView ? 'visible' : 'hidden'}
+            initial= "hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }}
             whileHover={{ scale: 1.05, y: -5 }}

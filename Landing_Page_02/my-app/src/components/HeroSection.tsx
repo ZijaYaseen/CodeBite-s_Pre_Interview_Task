@@ -28,6 +28,7 @@ const HeroSection = () => {
             alt='Breakio'
             width={300}
             height={300}
+            priority
             className='w-full h-auto mt-10 hidden md:block animate-float'
             ></Image>
 
@@ -36,6 +37,7 @@ const HeroSection = () => {
             alt='Breakio'
             width={300}
             height={300}
+            priority
             className='w-full h-auto mt-5 block md:hidden animate-float'
             ></Image>
           

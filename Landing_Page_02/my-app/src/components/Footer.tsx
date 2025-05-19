@@ -31,9 +31,9 @@ export default function Footer() {
       <div className="border-t mt-10 py-6 flex flex-col md:flex-row items-start md:items-center justify-between max-w-7xl mx-auto px-6">
   {/* Left Side */}
   <div className="flex flex-col md:flex-row items-start md:items-center gap-2">
-    <h5 className="font-medium text-xl">
+    <h2 className="font-medium text-xl">
       break<span className="text-fuchsia-800">io</span>
-    </h5>
+    </h2>
     <p className="text-sm text-gray-500">
       &copy; 2025 - All rights reserved.
     </p>
