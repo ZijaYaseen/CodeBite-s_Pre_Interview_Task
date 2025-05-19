@@ -21,23 +21,31 @@ const HeroSection = () => {
             </button>
           </div>
            </div>
-             
-             <Image
-            src={"Home-Picture.svg"}
-            alt='Breakio'
-            width={300}
-            height={300}
-            priority
-            className='w-full h-auto mt-10 hidden md:block animate-float'
-            ></Image>
 
-            <Image
-            src={"Home-Picture-Mbl.svg"}
-            alt='Breakio'
-            width={300}
-            height={300}
-            className='w-full h-auto mt-5 block md:hidden animate-float'
-            ></Image>
+           <div
+  className="
+    w-full
+    md:h-[465px]
+    h-[222px]
+    overflow-hidden
+    relative
+    filter
+    rounded-[20px]
+    drop-shadow-[12px_12px_0_#0f172a]
+    mt-5 animate-float
+  
+  "
+>
+  <Image
+    src="/Home-Picture.svg"
+    alt="Breakio"
+    fill
+    style={{
+      objectFit: 'cover',
+    }}
+    priority
+  />
+</div>
           
         </div>
     </div>

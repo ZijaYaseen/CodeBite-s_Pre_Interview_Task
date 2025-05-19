@@ -27,7 +27,7 @@ const GetBetter: React.FC = () => {
         </div>
 
         {/* Desktop Illustration */}
-        <div className="relative w-full h-[500px] lg:h-[850px] md:h-[650px] sm:h-[500px] py-20 mx-auto overflow-visible hidden sm:block">
+        <div className="relative w-full h-[500px] lg:h-[800px] md:h-[650px] sm:h-[500px] py-20 mx-auto overflow-visible hidden sm:block">
 
           <motion.div
             initial="hidden"
@@ -43,19 +43,22 @@ const GetBetter: React.FC = () => {
             alt="Desktop Illustration"
             width={600}
             height={400}
-            className="w-full h-auto drop-shadow-lg"
+            className="w-full h-auto"
           />
           </motion.div>
 
           {/* Top Desktop Card */}
+        {/* Cards Group */}
+        <div className="absolute bottom-8 left-6 flex flex-col gap-6">
+          {/* Top Card */}
           <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
-            transition={{ duration: 0.6, ease: 'easeOut', delay: 0.8 }}
+            transition={{ duration: 0.6, delay: 0.8 }}
             whileHover={{ scale: 1.05, y: -5 }}
-            className="absolute bottom-[43%] md:bottom-[40%] left-[3%] w-[20%] shadow-md"
+            className="w-64"
           >
             <Image
               src="/Content-Box-01.svg"
@@ -65,16 +68,15 @@ const GetBetter: React.FC = () => {
               className="w-full h-auto"
             />
           </motion.div>
-
-          {/* Bottom Desktop Card */}
+          {/* Bottom Card */}
           <motion.div
-            initial= "hidden"
+            initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
-            transition={{ duration: 0.6, ease: 'easeOut', delay: 0.7 }}
+            transition={{ duration: 0.6, delay: 0.7 }}
             whileHover={{ scale: 1.05, y: -5 }}
-            className="absolute bottom-[3%] left-[3%] w-[25%] shadow-md"
+            className="w-84"
           >
             <Image
               src="/Content-Box-02.svg"
@@ -84,6 +86,8 @@ const GetBetter: React.FC = () => {
               className="w-full h-auto"
             />
           </motion.div>
+        </div>
+
 
            <motion.div
             initial= "hidden"
@@ -92,7 +96,7 @@ const GetBetter: React.FC = () => {
             variants={fadeInUp}
             transition={{ duration: 0.6, ease: 'easeInOut', delay: 0.9 }}
             whileHover={{ scale: 1.05, y: -5 }}
-            className="absolute right-[10%] bottom-0 w-[24%] h-auto drop-shadow-lg"
+            className="absolute right-[10%] bottom-0 w-[24%] h-auto"
           >
           <Image
             src="/Mobile.svg"
@@ -119,48 +123,49 @@ const GetBetter: React.FC = () => {
               alt="Mobile Illustration"
               width={300}
               height={400}
-              className=""
             />
 
           </motion.div>
 
-          {/* Top Mobile Card */}
+   
+        {/* Mobile Cards Group */}
+        <div className="absolute bottom-4 left-4 flex flex-col gap-4">
           <motion.div
-            initial= "hidden"
+            initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
-            transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
             whileHover={{ scale: 1.05, y: -5 }}
-            className="absolute bottom-[40%] left-0 w-[60%] pl-3 shadow-md"
+            className="w-3/5"
           >
             <Image
               src="/Content-Box-01.svg"
-              alt="Top Card"
+              alt="Top Mobile Card"
               width={200}
               height={120}
               className="w-full h-auto"
             />
           </motion.div>
-
-          {/* Bottom Mobile Card */}
           <motion.div
-            initial= "hidden"
+            initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.2 }}
             variants={fadeInUp}
-            transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
             whileHover={{ scale: 1.05, y: -5 }}
-            className="absolute bottom-0 left-0 w-[65%] pl-3 shadow-md"
+            className="w-4/6"
           >
             <Image
               src="/Content-Box-02.svg"
-              alt="Bottom Card"
+              alt="Bottom Mobile Card"
               width={200}
               height={120}
               className="w-full h-auto"
             />
           </motion.div>
+        </div>
+
         </div>
 
       </div>
