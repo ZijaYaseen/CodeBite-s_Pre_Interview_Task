@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Landing Page 3 — CodeBite Pre‑Interview Challenge
 
-## Getting Started
+A modern, responsive “Landing Page 3” built with Next.js 14, Tailwind CSS, and Aceternity UI. This project demonstrates a polished hero section, animated floating navigation, customizable content cards, and mobile‑friendly interactions — all ready to showcase your front‑end skills.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [Features](#features)  
+2. [Tech Stack](#tech-stack)  
+3. [Project Structure](#project-structure)  
+4. [Installation & Setup](#installation--setup)  
+5. [Running Locally](#running-locally)  
+6. [Design & UI](#design--ui)  
+7. [Customization](#customization)  
+8. [Future Improvements](#future-improvements)  
+9. [License](#license)  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- **Animated Floating Navbar**  
+  - Uses **Aceternity UI** for the core floating bar component.  
+  - Hides on scroll down, reappears on scroll up via Framer Motion.  
+  - Responsive desktop and mobile toggles with slide‑out menu.  
 
-To learn more about Next.js, take a look at the following resources:
+- **Hero Section**  
+  - Bold headline with half‑highlight gradient effect (Tailwind background gradient).  
+  - Subheading and call‑to‑action button.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Dynamic Cards Section**  
+  - Reusable “Events/Blog” cards populated from a central `data/main.ts` array.  
+  - Category badge, image cover, title, and action link.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Mobile‑First Design**  
+  - Tailwind’s utility classes ensure clean breakpoints.  
+  - Slide‑in mobile menu with fade overlay.  
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+- **Next.js 14** — App router & server components  
+- **React** — UI library  
+- **Tailwind CSS** — Utility‑first styling  
+- **Aceternity UI** — FloatingNav wrapper & theme styles  
+- **Framer Motion** — Declarative animations & transitions  
+- **React Icons** — Consistent iconography (RiMenu4Fill, IoMdClose, etc.)  
+- **TypeScript** — Type safety for components and data  
+- **ESLint + Prettier** — Linting and code formatting  
+
+---
+
+**Live Site :** [https://code-bite-s-pre-interview-task-landing-page-03.vercel.app/](https://code-bite-s-pre-interview-task-landing-page-03.vercel.app/) 
