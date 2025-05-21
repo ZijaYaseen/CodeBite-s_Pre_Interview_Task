@@ -4,20 +4,6 @@ A modern, responsive “Landing Page 3” built with Next.js 14, Tailwind 
 
 ---
 
-## Table of Contents
-
-1. [Features](#features)  
-2. [Tech Stack](#tech-stack)  
-3. [Project Structure](#project-structure)  
-4. [Installation & Setup](#installation--setup)  
-5. [Running Locally](#running-locally)  
-6. [Design & UI](#design--ui)  
-7. [Customization](#customization)  
-8. [Future Improvements](#future-improvements)  
-9. [License](#license)  
-
----
-
 ## Features
 
 - **Animated Floating Navbar**  
