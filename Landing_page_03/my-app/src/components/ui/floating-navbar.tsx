@@ -62,7 +62,7 @@ export const FloatingNav = ({
             <button className="hidden md:block rounded-[8px] bg-Purple-600 hover:bg-purple-500 px-4 py-2">
               Join Now
             </button>
-            <button onClick={toggleMenu} className="lg:hidden p-2">
+            <button onClick={toggleMenu} className="md:hidden p-2 absolute right-3">
               <RiMenu4Fill size={32} />
             </button>
           </div>
