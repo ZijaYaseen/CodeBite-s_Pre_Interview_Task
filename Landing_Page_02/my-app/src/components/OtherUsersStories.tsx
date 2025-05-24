@@ -3,7 +3,7 @@ import { HorizontalCarouselOtherStories } from './HorizontalCrousel'
 
 const OtherUsersStories = () => {
   return (
-    <div className="max-w-[1440px] w-full font-roboto md:px-20 px-5 py-10 bg-fuchsia-50 relative">
+    <div className="max-w-[1440px] mx-auto w-full font-roboto md:px-20 px-5 py-10 bg-fuchsia-50 relative">
       <div>
         <Image
         src={"/Deco-left.svg"}

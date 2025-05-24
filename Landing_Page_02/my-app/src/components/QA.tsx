@@ -7,7 +7,7 @@ import { Faqs } from "@/data/main";
 
 export default function Accordion() {
     return (
-        <div className="max-w-[1440px] w-full font-roboto md:px-20 px-5 py-10 bg-blueGray-100">
+        <div className="max-w-[1440px] mx-auto w-full font-roboto md:px-20 px-5 py-10 bg-blueGray-100">
 
             <div className='text-center flex flex-col md:gap-6 gap-4 md:w-[75%] mx-auto w-full mb-10'>
 

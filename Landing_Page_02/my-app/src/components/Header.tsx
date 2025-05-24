@@ -9,7 +9,7 @@ export default function Header() {
   const toggleMenu = () => setIsOpen(prev => !prev);
 
   return (
-    <header className="max-w-[1440px] w-full flex py-4 px-4 lg:px-20 md:px-10 min-h-[70px] tracking-wide  font-roboto text-blueGray-900">
+    <header className="max-w-[1440px] mx-auto w-full flex py-4 px-4 lg:px-20 md:px-10 min-h-[70px] tracking-wide  font-roboto text-blueGray-900">
       <div className="flex items-center justify-between w-full">
         {/* Logo and nav links */}
         <div className="flex items-center gap-14">

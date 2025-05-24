@@ -2,7 +2,7 @@ import { Features } from "@/data/main"
 
 export default function FeaturesGrid() {
   return (
-    <section className="max-w-[1440px] w-full font-roboto md:px-20 px-5 py-10">
+    <section className="max-w-[1440px] mx-auto w-full font-roboto md:px-20 px-5 py-10">
       
       <div className='text-center flex flex-col md:gap-6 gap-4 mx-auto w-full'>
         <h2 className="md:font-extrabold md:py-5 font-bold md:text-[56px] text-2xl bg-gradient-to-r from-[#C026D3] to-[#701A75] bg-clip-text text-transparent">

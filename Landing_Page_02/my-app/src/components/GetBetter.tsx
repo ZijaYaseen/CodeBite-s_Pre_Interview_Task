@@ -8,7 +8,7 @@ import {  fadeInUp } from '@/utils/AnimationVariants';
 const GetBetter: React.FC = () => {
 
   return (
-    <div className="max-w-[1440px] w-full font-roboto md:px-10 py-5 md:py-10">
+    <div className="max-w-[1440px] mx-auto w-full font-roboto md:px-10 py-5 md:py-10">
       <div className="w-full">
 
         {/* Heading and Text */}

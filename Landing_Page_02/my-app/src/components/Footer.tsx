@@ -11,7 +11,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-blueGray-600 border-t max-w-[1440px] w-full font-roboto">
+    <footer className="bg-white mx-auto text-blueGray-600 border-t max-w-[1440px] w-full font-roboto">
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-6 gap-8">
         {FooterData.map((section) => (
           <div key={section.heading}>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const HeroSection = () => {
   return (
-    <div className='max-w-[1440px] w-full px-5 md:px-20 md:py-10 py-5 items-center text-center font-roboto'>
+    <div className='max-w-[1440px] mx-auto w-full px-5 md:px-20 md:py-10 py-5 items-center text-center font-roboto'>
         <div className='text-center flex flex-col md:gap-6 gap-4'>
            <h1 className='md:font-extrabold font-bold md:text-7xl text-[32px] bg-gradient-to-r from-[#C026D3] to-[#701A75] bg-clip-text text-transparent'>
             It&#39;s time to take a break

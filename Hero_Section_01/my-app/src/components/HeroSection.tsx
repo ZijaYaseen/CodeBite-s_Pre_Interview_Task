@@ -32,7 +32,7 @@ export default function HeroSection() {
             <p className="mt-1 font-normal text-base font-space-mono">Lorem ipsum dolor sit</p>
           </div>
         </div>
-
+{/* Sun */}
     <div className="absolute top-32 overflow-visible flex justify-center items-center">
   <div
     className="

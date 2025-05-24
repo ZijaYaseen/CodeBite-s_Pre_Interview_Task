@@ -27,7 +27,7 @@ export default function RootLayout({
         className={`${roboto.variable} antialiased`}
       >
         {/* Fixed Navbar Wrapper {nav bar fixed} */}
-        <div className="fixed top-0 left-0 right-0 h-[70px] bg-white z-50">
+        <div className="fixed top-0 left-0 right-0 h-[70px] bg-white z-50 mx-auto">
           <Header />
         </div>
         {/* Page Content with padidng */}
