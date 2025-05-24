@@ -23,7 +23,7 @@ export default function UnlimitedIdeas() {
             Discover
           </p>
 
-          <h2 className="text-5xl md:text-7xl font-extrabold leading-tight relative overflow-visible">
+          <h2 className="text-4xl md:text-7xl font-extrabold leading-tight relative overflow-visible">
             <span className="text-purple-400">Unlimited&nbsp;</span>
 
             <span className="relative inline-block overflow-visible">
@@ -93,7 +93,7 @@ export default function UnlimitedIdeas() {
            Powerful
           </p>
 
-          <h2 className="text-5xl md:text-7xl font-extrabold leading-tight relative overflow-visible">
+          <h2 className="text-4xl md:text-7xl font-extrabold leading-tight relative overflow-visible">
           
              All the tools you can imagine
           </h2>
@@ -134,7 +134,7 @@ export default function UnlimitedIdeas() {
            Customers
           </p>
 
-         <h2 className="text-5xl md:text-7xl font-extrabold leading-tight">
+         <h2 className="text-4xl md:text-7xl font-extrabold leading-tight">
   <span className="text-purple-400">Target&nbsp;</span>
   <span
     className="
@@ -199,7 +199,7 @@ export default function UnlimitedIdeas() {
            Speed
           </p>
 
-          <h2 className="text-5xl md:text-7xl font-extrabold leading-tight relative overflow-visible">
+          <h2 className="text-4xl md:text-7xl font-extrabold leading-tight relative overflow-visible">
           
              Work fast, w/o interruptions
           </h2>

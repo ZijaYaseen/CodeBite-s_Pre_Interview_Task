@@ -39,7 +39,7 @@ export const FloatingNav = ({
           animate={{ y: visible ? 0 : -100, opacity: visible ? 1 : 0 }}
           transition={{ duration: 0.2 }}
           className={cn(
-            'fixed top-6 inset-x-6 mx-auto z-[5000] flex max-w-[1000px] items-center justify-between space-x-6 rounded-[20px] bg-[#181E2C] px-6 py-2 text-white shadow-2xl drop-shadow-2xl font-roboto',
+            'fixed top-6 inset-x-6 mx-auto z-[5000] flex max-w-[1000px] items-center justify-between space-x-6 rounded-[20px] bg-[#181E2C] px-6 md:py-4 py-2 text-white shadow-2xl drop-shadow-2xl font-roboto',
             className
           )}
         >
@@ -49,7 +49,7 @@ export const FloatingNav = ({
               <Link
                 key={i}
                 href={item.link}
-                className="flex items-center space-x-1 text-sm hover:text-neutral-200 dark:text-neutral-50 dark:hover:text-neutral-200"
+                className="flex items-center space-x-1 text-base font-medium hover:text-neutral-200 dark:text-neutral-50 dark:hover:text-neutral-200"
               >
                 <span className="block sm:hidden">{item.icon}</span>
                 <span className="hidden sm:block">{item.name}</span>
