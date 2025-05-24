@@ -59,7 +59,7 @@ export const FloatingNav = ({
 
           <div className="flex items-center gap-[38px] text-base font-medium">
             <button className="hidden md:block">Login</button>
-            <button className="hidden md:block rounded-[8px] bg-Purple-600 px-4 py-2">
+            <button className="hidden md:block rounded-[8px] bg-Purple-600 hover:bg-purple-500 px-4 py-2">
               Join Now
             </button>
             <button onClick={toggleMenu} className="lg:hidden p-2">

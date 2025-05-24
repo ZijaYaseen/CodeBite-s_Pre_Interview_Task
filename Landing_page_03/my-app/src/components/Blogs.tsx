@@ -19,7 +19,7 @@ export default function Blogs() {
           </div>
           <div className="grid gap-8 md:grid-cols-3">
             {posts.map(post => (
-              <div key={post.id} className="bg-white rounded-[5px] shadow-md overflow-hidden">
+              <div key={post.id} className="bg-white rounded-[5px] shadow-md hover:drop-shadow-2xl transition-all hover:-translate-y-2 overflow-hidden">
                 <div className="relative h-64 w-full">
                   <Image
                     src={post.imageUrl}
